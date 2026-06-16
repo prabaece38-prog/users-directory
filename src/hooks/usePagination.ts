@@ -8,9 +8,6 @@ interface UsePaginationResult<T> {
   goToPage: (page: number) => void;
 }
 
-// Handles "current page" state + slicing the list for that page.
-// If the underlying list shrinks (e.g. due to search) and the
-// current page no longer exists, it resets to page 1.
 export function usePagination<T>(
   items: T[],
   pageSize: number

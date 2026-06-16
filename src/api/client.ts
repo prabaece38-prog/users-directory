@@ -1,5 +1,3 @@
-// Thin wrapper around fetch. Keeps base URL + error handling
-// in one place so services don't repeat fetch boilerplate.
 
 import { API_BASE_URL } from "../constants";
 

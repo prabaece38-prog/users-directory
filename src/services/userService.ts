@@ -1,6 +1,3 @@
-// Pure helper functions for working with User data.
-// Kept separate from the API layer and components so the
-// filtering logic can be unit tested in isolation.
 
 import type { User } from "../types";
 

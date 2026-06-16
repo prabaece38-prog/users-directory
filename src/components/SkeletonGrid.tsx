@@ -1,4 +1,4 @@
-// A single skeleton placeholder matching the UserCard layout.
+
 function SkeletonCard() {
   return (
     <div className="flex flex-col items-center gap-2 rounded-lg border border-gray-200

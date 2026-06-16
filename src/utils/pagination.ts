@@ -1,6 +1,3 @@
-// Generic, reusable pagination helper.
-// Given the full list + page info, returns just the slice
-// that should be shown on the current page.
 
 export function paginate<T>(items: T[], page: number, pageSize: number): T[] {
   const startIndex = (page - 1) * pageSize;

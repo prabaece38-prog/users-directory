@@ -5,7 +5,6 @@ interface UserCardProps {
   user: User;
 }
 
-// Card layout used inside the responsive grid.
 export function UserCard({ user }: UserCardProps) {
   return (
     <div className="flex flex-col items-center gap-2 rounded-lg border border-gray-200

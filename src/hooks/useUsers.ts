@@ -9,8 +9,6 @@ interface UseUsersResult {
   retry: () => void;
 }
 
-// Encapsulates fetching the user list + loading/error state,
-// so pages don't need to know about the API directly.
 export function useUsers(): UseUsersResult {
   const [users, setUsers] = useState<User[]>([]);
   const [isLoading, setIsLoading] = useState(true);
